@@ -1,0 +1,35 @@
+#logo {
+    font-size: 25pt;
+    background: -webkit-linear-gradient(#fc354c, #0abfbc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container{
+    background-color: black;
+}
+
+.navbar-toggle-icon{
+    color: white !important;
+}
+
+body{
+    background: #fc354c; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc354c, #0abfbc); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc354c, #0abfbc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1,h2,h3,h4,h5{
+    color: white;
+    text-align: center;
+}
+
+img{
+    object-fit: cover !important;
+}
+
+#redes > a{
+    text-decoration: none;
+    color: white;
+}
